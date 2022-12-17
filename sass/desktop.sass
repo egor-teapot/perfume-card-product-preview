@@ -1,0 +1,35 @@
+$dark-cyan: hsl(158, 36%, 37%)
+$cream: hsl(30, 38%, 92%)
+
+$very-dark-blue: hsl(212, 21%, 14%)
+$dark-grayish-blue: hsl(228, 12%, 48%)
+$white: hsl(0, 0%, 100%)
+
+.attribution
+    position: absolute
+    right: 0
+    bottom: 0
+
+body
+    height: 100vh
+    background: $cream
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.perfume-card
+    background: $white
+    border-radius: 10px
+    width: 800px
+    display: flex
+    overflow: hidden
+
+    &_img
+        max-width: 50%
+        height: auto
+
+    &_main
+        // flex: 1 1 100%
+        padding: 30px 30px
+        // font-size: 2rem

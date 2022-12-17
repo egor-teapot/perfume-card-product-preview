@@ -1,0 +1,12 @@
+{
+  "name": "wire-perfume-card-product-preview",
+  "version": "1.0.0",
+  "description": "frontend mentor challenge",
+  "main": "index.js",
+  "author": "egor-teapot <obivan-kenobo@yandex.ru>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "sass": "^1.56.2"
+  }
+}
